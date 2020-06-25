@@ -31,8 +31,8 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
-    compile 'com.github.mukeshsolanki:social-login-helper:1.0.2'
-}
+	        implementation 'com.github.socialUltimus:Social_Login:0.0.1'
+	}
 ```
 
 ## How to use the library?
