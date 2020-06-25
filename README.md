@@ -1,9 +1,7 @@
 <h1 align="center">Social Login Helper For Android</h1>
 <p align="center">
-  <a href="https://android-arsenal.com/api?level=21"> <img src="https://img.shields.io/badge/API-17%2B-blue.svg?style=flat" /></a>
+  <a href="https://android-arsenal.com/api?level=21"> <img src="https://img.shields.io/badge/API-21%2B-blue.svg?style=flat" /></a>
   <a href="https://jitpack.io/#mukeshsolanki/social-login-helper"> <img src="https://jitpack.io/v/mukeshsolanki/social-login-helper.svg" /></a>
-  <a href="https://travis-ci.org/mukeshsolanki/social-login-helper"> <img src="https://travis-ci.org/mukeshsolanki/social-login-helper.svg?branch=master" /></a>
-  <a href="https://android-arsenal.com/details/1/5600"><img src="https://img.shields.io/badge/Android%20Arsenal-Social%20Login%20Helper-brightgreen.svg?style=flat" border="0" alt="Android Arsenal"></a>
 
   <br /><br />A simple andorid library that helps you integrate social login into your apps. It supports Facebook, Instagram, Twitter.
   <br /><br/>
