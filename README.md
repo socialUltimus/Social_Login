@@ -1,7 +1,7 @@
 <h1 align="center">Social Login Helper For Android</h1>
 <p align="center">
   <a href="https://android-arsenal.com/api?level=21"> <img src="https://img.shields.io/badge/API-21%2B-blue.svg?style=flat" /></a>
-  <a href="https://jitpack.io/#mukeshsolanki/social-login-helper"> <img src="https://jitpack.io/v/mukeshsolanki/social-login-helper.svg" /></a>
+  <a href="https://jitpack.io/#socialUltimus/Social_Login/"> <img src="https://jitpack.io/v/socialUltimus/Social_Login.svg" /></a>
 
   <br /><br />A simple andorid library that helps you integrate social login into your apps. It supports Facebook, Instagram, Twitter.
   <br /><br/>
@@ -91,6 +91,9 @@ appropriate result reflate in according listener
 
 **Instagram**
 
+1. create helper instance in onCreate method and implement InstagramListener
+
+```kotlin
 val mInstagram = InstagramHelper(
             this,
             this,
@@ -100,8 +103,61 @@ val mInstagram = InstagramHelper(
         )
 ```
 
+2. Done, all you have to do is call below method from where you want to perform instagram login operation
+
+```kotlin
+ mInstagram?.performSignIn()
+
+```
+
+appropriate result reflate in according listener
+
+```kotlin
+   override fun onInstagramSignInFail(errorMessage: String?) {
+
+
+      }
+
+      override fun onInstagramSignInSuccess(
+          authToken: String?,
+          userId: String?,
+          userName: String?,
+          userEmail: String?,
+          avatar: String?
+      ) {
+
+
+
+      }
+
+```
+
 **Twitter**
 
-val mTwitter = TwitterHelper(this, this, "Your Twitter Api Key", "Your Twitter Api Secret");
+1. create helper instance in onCreate method and implement TwitterListener
 
+```kotlin
+  mTwitter = TwitterHelper(this, this, "Your Twitter Api Key", "Your Twitter Api Secret")
+
+```
+2. Done, all you have to do is call below method from where you want to perform instagram login operation
+
+```kotlin
+ mTwitter?.performSignIn()
+
+```
+
+appropriate result reflate in according listener
+
+```kotlin
+   override fun onTwitterError(errorMessage: String?) {
+
+       }
+
+       override fun onTwitterSignIn(authToken: String?, secret: String?, userId: Long) {
+
+
+       }
+
+```
 
