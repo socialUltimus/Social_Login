@@ -36,7 +36,7 @@ dependencies {
 ```
 
 ## How to use the library?
-Okay seems like you integrated the library in your project but **how do you use it**? Well its really easy if you want to user facebook login just create a button and set an onClickLister to perform the following.
+Okay seems like you integrated the library in your project but **how do you use it**? Well its really easy if you want to use any login within above three just create a button and set an onClickLister to perform the following.
 
 **Facebook**
 
@@ -137,7 +137,7 @@ appropriate result reflate in according listener
 1. create helper instance in onCreate method and implement TwitterListener
 
 ```kotlin
-  mTwitter = TwitterHelper(this, this, "Your Twitter Api Key", "Your Twitter Api Secret")
+  mTwitter = TwitterHelper(this, this, "CONSUMER_KEY Key", "CONSUMER_SECRET Key")
 
 ```
 2. Done, all you have to do is call below method from where you want to perform instagram login operation

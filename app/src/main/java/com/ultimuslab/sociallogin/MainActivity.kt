@@ -30,9 +30,9 @@ class MainActivity : AppCompatActivity(), FacebookListener, TwitterListener, Ins
         mInstagram = InstagramHelper(
             this,
             this,
-            "3003774029706274",
-            "c280ca824060783da320667c5b018bf7",
-            "https://instagram.com/"
+            "client_id",
+            "client_secret_id",
+            "callback url" // https://instagram.com/"
         )
 
         facebook_button.setOnClickListener {
