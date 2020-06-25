@@ -32,8 +32,10 @@ class MainActivity : AppCompatActivity(), FacebookListener, TwitterListener, Ins
             this,
             "client_id",
             "client_secret_id",
-            "callback url" // https://instagram.com/"
+            "callback url"
         )
+
+
 
         facebook_button.setOnClickListener {
             mFacebook?.performSignIn(this)

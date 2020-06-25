@@ -101,6 +101,7 @@ val mInstagram = InstagramHelper(
             "Client Secret Id",
             "callback url"
         )
+        // you can use  https://instagram.com/ as callback url
 ```
 
 2. Done, all you have to do is call below method from where you want to perform instagram login operation
