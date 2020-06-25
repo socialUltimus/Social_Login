@@ -5,7 +5,7 @@
 
   <br /><br />A simple andorid library that helps you integrate social login into your apps. It supports Facebook, Instagram, Twitter.
   <br /><br/>
-  <img src="https://github.com/socialUltimus/Social_Login/blob/master/app/src/main/res/drawable/image.JPEG" width="480" />
+  <img src="https://github.com/socialUltimus/Social_Login/blob/master/app/src/main/res/drawable/image.JPEG" width="350" />
 </p>
 
 ## Supported Social Networks
