@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Social_Login.iml" filepath="$PROJECT_DIR$/.idea/modules/Social_Login.iml" group="Social_Login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Social Login/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ultimusSocialLogin/ultimusSocialLogin.iml" filepath="$PROJECT_DIR$/.idea/modules/ultimusSocialLogin/ultimusSocialLogin.iml" group="Social Login/ultimusSocialLogin" />
+    </modules>
+  </component>
+</project>
